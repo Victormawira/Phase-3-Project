@@ -30,3 +30,22 @@ The parameters of this model were:
 - `SMOTE balancing`
 - `StandardScaler`
 
+## Definitions:
+
+- Churn:  a customer who closes their account with SyriaTel.  A prediction of `True` relates to a customer who will churn. 
+- Predictive model:  
+
+## Conclusions
+
+As we can see above, our model did not perform as well as hoped on the test data.  2.9% of predictions of this model are false negatives.  We have reduced this down to a reasonable number.  
+
+With more time and further iterations, this score could continue to be improved upon. 
+  
+
+## Next Steps and Future Investigation:
+
+It was highlighted during the EDA of this project that there are many areas which the company could improve to help reduce high churn factors.  Below are some possible suggestions of what could be further investigated:
+- Further investigation should be devoted to looking into the other characteristics of these customers to find out why there was a need to make this many calls to customer service and how the company could better assist these customers.
+- Given that over 39% of international plan holders churn, further investigation into retention efforts for these customers might be a worthwhile effort. 
+- Further investigation should be done to see what is going on in these high churn states to see what trends might be causing this.
+- Investigate ways to incentivise customers with total day charges over $50 to stay with with the company by creating added value and perks.  This investigation found that 100% of these customers churn.
